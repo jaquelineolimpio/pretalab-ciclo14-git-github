@@ -5,7 +5,7 @@
 
 ```bash
 git --version
-
+```
 - Verificar se a configuração está feita
 
 git config — list

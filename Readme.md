@@ -3,26 +3,39 @@
 ## 🚀 Meu Projeto
 Esse projeto foi feito com muito ❤️ e ☕
 
-### Verificar versão do Git
+#### Verificar versão do Git
 
 ```bash
 git --version
 ```
-- Verificar se a configuração está feita
+#### Verificar se a configuração está feita
 ```bash
 git config --list
 ```
-- Se não estiver precisa configurar
+Se não estiver precisa configurar
 
-limpa o terminal
+#### limpa o terminal
 ```bash
 Clear
 ```
+#### Inicia um novo repositório git em uma pasta local
 ```bash
 git init
 ```   
+#### Adiciona arquivos modificados
+```bash
+git add
+``` 
+#### Mostra estado atual dos arquivos em seu repositório e indica quais foram modificados
+```bash
+git status
+``` 
+#### Cria um commit salvando suas mudanças no histórico do projeto com uma mensagem descritiva
+```bash
+git commit -m "mensagem"
+``` 
 
-depois para ver se tem a chave 
+#### Depois para ver se tem a chave 
 
 ```bash
 ls ~/.ssh (Windows)

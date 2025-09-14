@@ -60,7 +60,7 @@ git checkout -b nome-da-branch
 ```bash
 git checkout nome-da-branch
 ``` 
-#### Integra ou mescla alterações de uma branch especifica atual
+#### Integra ou mescla alterações de uma branch específica atual
 ```bash
 git merge nome-da-branch
 ``` 

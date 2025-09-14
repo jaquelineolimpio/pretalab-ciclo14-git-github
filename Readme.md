@@ -48,3 +48,19 @@ git push
 ```bash
 git remote add origin <URLdorepositorio>
 ``` 
+#### Lista todas as branches disponíveis no seu repositório
+```bash
+git branch
+``` 
+#### Cria uma nova branch
+```bash
+git checkout -b nome-da-branch
+``` 
+#### Permite alterar uma branch para outra
+```bash
+git checkout nome-da-branch
+``` 
+#### Integra ou mescla alterações de uma branch especifica atual
+```bash
+git merge nome-da-branch
+``` 

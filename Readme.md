@@ -3,6 +3,8 @@
 ## 🚀 Meu Projeto
 Esse projeto foi feito com muito ❤️ e ☕
 
+### Comandos Básicos de Git
+
 #### Verificar versão do Git
 
 ```bash
@@ -34,19 +36,15 @@ git status
 ```bash
 git commit -m "mensagem"
 ``` 
-
-#### Depois para ver se tem a chave 
-
+#### Atualiza seu repositório local com as mudanças mais recentes do repositório remoto (Remoto -> Local)
 ```bash
-ls ~/.ssh (Windows)
-```
-
-`eval "$(ssh-agent -s)"` → inicia o `ssh-agent` e exporta as variáveis de ambiente necessárias para o shell atual.
-`ssh-add ~/.ssh/id_ed25519` → adiciona sua chave privada (fica dentro da pasta `.ssh` do seu usuário).
-    - `~` equivale a sua pasta de usuário
-    **para aparecer a chave pública**
-
-cat ~/.ssh/id_ed25519.pub→ copia a chave completa
-• **No GitHub:** Icone do perfil → Settings → SSH and GPG keys → New SSH key → Colar a a chave e adicionar um titulo (security_pub-key) → Salvar chave
-
-copia somente a chave que é a partir do ssh
+git pull
+``` 
+#### Envia as mudanças do seu repositório local para o remoto (Local -> Remoto)
+```bash
+git push
+``` 
+#### Conecta seu repositório a um remoto no GitHub
+```bash
+git remote add origin <URLdorepositorio>
+``` 

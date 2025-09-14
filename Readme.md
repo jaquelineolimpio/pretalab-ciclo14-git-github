@@ -3,9 +3,9 @@
 ## 🚀 Meu Projeto
 Esse projeto foi feito com muito ❤️ e ☕
 
-### Comandos Básicos de Git
+### Comandos Básicos de Git 😸
 
-#### Verificar versão do Git 😸
+#### Verificar versão do Git
 
 ```bash
 git --version

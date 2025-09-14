@@ -1,6 +1,8 @@
 # Oficina de Git e GitHub da Pretalab | Ciclo 14 | Ano 2025
 
-## Primeira Aula Introdutória sobre Git
+## 🚀 Meu Projeto
+Esse projeto foi feito com muito ❤️ e ☕
+
 ### Verificar versão do Git
 
 ```bash

@@ -7,21 +7,27 @@
 git --version
 ```
 - Verificar se a configuração está feita
-
-git config — list
-
+```bash
+git config --list
+```
 - Se não estiver precisa configurar
 
-Clear  limpa o terminal 
-
+limpa o terminal
+```bash
+Clear
+```
+```bash
 git init
+```   
 
 depois para ver se tem a chave 
 
-**ls ~/.ssh (Windows)**
+```bash
+ls ~/.ssh (Windows)
+```
 
-- `eval "$(ssh-agent -s)"` → inicia o `ssh-agent` e exporta as variáveis de ambiente necessárias para o shell atual.
-- `ssh-add ~/.ssh/id_ed25519` → adiciona sua chave privada (fica dentro da pasta `.ssh` do seu usuário).
+`eval "$(ssh-agent -s)"` → inicia o `ssh-agent` e exporta as variáveis de ambiente necessárias para o shell atual.
+`ssh-add ~/.ssh/id_ed25519` → adiciona sua chave privada (fica dentro da pasta `.ssh` do seu usuário).
     - `~` equivale a sua pasta de usuário
     **para aparecer a chave pública**
 
